@@ -10,3 +10,4 @@ A Sofa Color Picker that would be seen on a ecommerance/furniture store website.
 ## Project Preview
 https://user-images.githubusercontent.com/40047791/178806592-034ed14d-ff10-43b3-9049-31d067af3cba.mp4
 
+<a href="https://ark229.github.io/sofa-color-picker/ "><img src="https://user-images.githubusercontent.com/40047791/172757950-fe38aee2-0420-4264-9064-db48ece9ac9e.png" /></a>
