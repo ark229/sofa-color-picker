@@ -1,5 +1,6 @@
 # Sofa Color Picker
 A Sofa Color Picker that would be seen on a ecommerance/furniture store website.
+This project is fully responsive
 
 ## Tools used for this project:
 1. HTML
