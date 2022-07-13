@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.couch-container {
+  position: relative;
+  background: url(../images/couch.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+#product-svg {
+  position: relative;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
+#product-shape {
+  fill: rgb(52, 146, 209);
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: auto;
+}
+
+.colorPicker {
+  justify-content: center;
+  display: flex;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+}
+
+label {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+label.lightpink,
+#color-1 {
+  background: lightpink;
+}
+
+label.multicolor,
+#color-2 {
+  background: tan;
+}
+
+label.gray,
+#color-3 {
+  background: gray;
+}
+
+label.red,
+#color-4 {
+  background: red;
+}
+
+label.textureone,
+#color-5 {
+  background: lavender;
+}
+
+label.texturetwo,
+#color-6 {
+  background: navajowhite;
+}
+
+label.texturethree,
+#color-7 {
+  background: rgb(52, 146, 209);
+}
+
+input[type="radio"] {
+  visibility: hidden;
+}
